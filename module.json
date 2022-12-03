@@ -1,20 +1,27 @@
 {
-    "name": "marks-arashi-schooner",
-    "title": "Mark's Arashi Schooner",
-    "description": "Maps for for a schooner, above and below decks.",
-    "version": "1.0.5",
-    "author": "Mark Pearce",
-    "minimumCoreVersion": "0.8.6",
-    "compatibleCoreVersion": "9",
-    "packs": [
-        {
-            "name": "marks-arashi-scenes",
-            "label": "Marks Arashi Scenes",
-            "path": "./packs/marks-arashi-scenes.db",
-            "entity": "Scene",
-            "type": "Scene"
-        }
-    ],
-    "manifest": "https://github.com/MarkPearce/marks-arashi-schooner/releases/latest/download/module.json",
-    "download": "https://github.com/MarkPearce/marks-arashi-schooner/releases/download/1.0.5/marks-arashi-schooner.zip"
-  }
+  "id": "marks-arashi-schooner",
+  "title": "Mark's Arashi Schooner",
+  "description": "Maps for a schooner above and below decks.",
+  "version": "2.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.286"
+  },
+  "authors": [
+    {
+      "name": "Mark Pearce",
+      "discord": "Mark Pearce#2772",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "marks-arashi-scenes",
+      "label": "Marks Arashi Scenes",
+      "path": "./packs/marks-arashi-scenes.db",
+      "type": "Scene"
+    }
+  ],
+  "manifest": "https://github.com/MarkPearce/marks-arashi-schooner/releases/latest/download/module.json",
+  "download": "https://github.com/MarkPearce/marks-arashi-schooner/releases/download/1.0.5/marks-arashi-schooner.zip"
+}
